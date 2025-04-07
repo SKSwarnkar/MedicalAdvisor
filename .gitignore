@@ -1,0 +1,18 @@
+# Python virtual env
+advisor_env/
+
+# Whisper output files
+*.srt
+*.vtt
+*.tsv
+*.txt
+*.wav
+*.m4a
+
+# Temp & editor files
+~$*
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+.env
