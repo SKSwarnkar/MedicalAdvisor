@@ -20,3 +20,5 @@ def display_result(symptom):
 # Call the function to display the result when the user inputs a symptom
 if symptom_input:
     display_result(symptom_input)
+
+# Front End Code
