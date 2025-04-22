@@ -1,0 +1,38 @@
+[
+    {
+        "symptom": "Chest pain",
+        "clarifying_questions": [
+            "Do you have shortness of breath?",
+            "Does the pain spread to your arm, neck, or jaw?",
+            "Do you feel dizzy or faint?"
+        ],
+        "conditions_to_flag": [
+            "Chest pain with shortness of breath or nausea may indicate a heart attack.",
+            "Sudden, severe chest pain could be a medical emergency."
+        ],
+        "triage_recommendation": {
+            "emergency": "Yes, if pain is severe, spreading, or accompanied by shortness of breath or nausea.",
+            "doctor_visit": "If the pain is mild or persistent but not associated with red flag symptoms.",
+            "monitor_at_home": "Only if mild and previously evaluated, and no worsening symptoms."
+        },
+        "safe_advice": "If in doubt, seek immediate medical help. Do not ignore chest pain that feels unusual or intense."
+    },
+    {
+        "symptom": "Rash",
+        "clarifying_questions": [
+            "Is the rash spreading quickly?",
+            "Do you have a fever or swelling?",
+            "Is the rash painful or oozing?"
+        ],
+        "conditions_to_flag": [
+            "Rash with fever may indicate an infection.",
+            "Rapidly spreading or painful rashes may require urgent attention."
+        ],
+        "triage_recommendation": {
+            "emergency": "If rash is spreading quickly, accompanied by fever, or signs of an allergic reaction (e.g. swelling, difficulty breathing).",
+            "doctor_visit": "If the rash is painful, persistent, or getting worse over a few days.",
+            "monitor_at_home": "If it's mild, not spreading, and not associated with other symptoms."
+        },
+        "safe_advice": "Use mild skincare products. Monitor for worsening. If new symptoms appear, contact a healthcare provider."
+    }
+]

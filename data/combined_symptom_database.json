@@ -1,0 +1,473 @@
+{
+    "tension_headache": {
+        "clarifying_questions": [
+            "How often do the headaches occur?",
+            "Is the pain dull and constant or throbbing?",
+            "Do you feel tightness around your forehead or back of your neck?",
+            "Does the pain worsen with stress or screen time?",
+            "Are you sensitive to light or sound?"
+        ],
+        "conditions_to_flag": [
+            "Headache lasting more than 15 days per month",
+            "Pain accompanied by vision changes or neurological symptoms",
+            "New headache pattern in older adults"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if accompanied by confusion, speech difficulty, or sudden severe pain.",
+            "doctor_visit": "See a doctor if tension headaches are frequent, interfere with life, or don't improve with OTC medication.",
+            "monitor_at_home": "Occasional mild headaches can be managed with rest, hydration, stress relief, and OTC pain relievers."
+        },
+        "safe_advice": "Manage stress, take breaks from screens, maintain good posture, and use acetaminophen or ibuprofen if needed."
+    },
+    "migraine": {
+        "clarifying_questions": [
+            "Do you experience visual disturbances before the headache?",
+            "Is the pain throbbing or pulsating?",
+            "How long do your migraine attacks last?",
+            "Do you feel nauseated or vomit during migraines?",
+            "Are migraines triggered by specific foods or stimuli?"
+        ],
+        "conditions_to_flag": [
+            "Migraine with aura and speech or vision issues",
+            "Headache with limb weakness or facial drooping",
+            "Sudden change in migraine pattern"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care for sudden, severe headache or neurological symptoms like slurred speech or weakness.",
+            "doctor_visit": "See a doctor if migraines are frequent, worsening, or disabling.",
+            "monitor_at_home": "Occasional migraines may be managed with rest in a dark room and appropriate medication."
+        },
+        "safe_advice": "Track triggers, avoid known ones, maintain a regular sleep schedule, and use prescribed migraine medication if needed."
+    },
+    "cluster_headache": {
+        "clarifying_questions": [
+            "Do headaches occur at the same time each day or season?",
+            "Is the pain one-sided, around or behind the eye?",
+            "Do you experience eye tearing or nasal congestion during the attack?",
+            "How long do the headaches last?",
+            "Do you feel restless or agitated during the headache?"
+        ],
+        "conditions_to_flag": [
+            "Unilateral severe pain with eye redness or tearing",
+            "Short recurring headaches for weeks/months",
+            "Headaches that wake you from sleep"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if the headache is sudden, very intense, or associated with neurological symptoms.",
+            "doctor_visit": "See a neurologist if you suspect cluster headaches, especially if recurring in cycles.",
+            "monitor_at_home": "Once diagnosed, follow the prescribed oxygen or medication regimen."
+        },
+        "safe_advice": "Avoid alcohol and smoking during cluster periods. Stick to treatment plans with fast-acting meds or oxygen therapy."
+    },
+    "thunderclap_headache": {
+        "clarifying_questions": [
+            "Did the headache reach maximum intensity within 60 seconds?",
+            "Have you ever experienced a headache like this before?",
+            "Do you have any neurological symptoms such as vision loss, confusion, or weakness?",
+            "Do you have a history of aneurysms or vascular disorders?",
+            "Have you experienced head trauma recently?"
+        ],
+        "conditions_to_flag": [
+            "Sudden onset of very severe headache",
+            "Headache with neurological symptoms"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek immediate emergency care \u2014 thunderclap headaches may indicate brain bleeding or other critical issues.",
+            "doctor_visit": "Even if symptoms improve, a medical evaluation is essential to rule out serious causes.",
+            "monitor_at_home": "Not recommended \u2014 always seek medical care for sudden, severe headaches."
+        },
+        "safe_advice": "Do not self-medicate. Go to the emergency room immediately. These headaches may be a sign of a medical emergency."
+    },
+    "rebound_headache": {
+        "clarifying_questions": [
+            "How frequently do you use pain medication for headaches?",
+            "Does the headache return when medication wears off?",
+            "Which medications are you currently using?",
+            "When did you start experiencing daily headaches?",
+            "Have you tried tapering medication use?"
+        ],
+        "conditions_to_flag": [
+            "Headaches occurring daily or almost daily",
+            "Regular use of OTC pain relievers more than 2-3 times a week",
+            "Worsening headache pattern over time"
+        ],
+        "triage_recommendations": {
+            "emergency": "Not typically an emergency unless accompanied by new neurological symptoms.",
+            "doctor_visit": "Consult a doctor to create a withdrawal and preventive plan for long-term management.",
+            "monitor_at_home": "Reduce medication gradually under supervision; track headache patterns and avoid triggers."
+        },
+        "safe_advice": "Avoid overuse of headache medication. Discuss a plan with your doctor to taper off and switch to preventive therapy if needed."
+    },
+    "cough": {
+        "clarifying_questions": [
+            "How long have you been coughing?",
+            "Is the cough dry or producing mucus?",
+            "Do you have any fever or chest pain?",
+            "Is the cough worse at night or after physical activity?",
+            "Have you been exposed to anyone who is sick or recently traveled?"
+        ],
+        "conditions_to_flag": [
+            "Cough lasting more than 3 weeks",
+            "Cough with blood in sputum",
+            "Cough with difficulty breathing or chest pain",
+            "Cough associated with significant weight loss"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek immediate care for coughing up blood, severe shortness of breath, or chest pain.",
+            "doctor_visit": "Consult a doctor if cough lasts more than 3 weeks or is associated with fever or weight loss.",
+            "monitor_at_home": "Monitor and manage with hydration, humidifiers, and OTC cough medicine if symptoms are mild."
+        },
+        "safe_advice": "Stay hydrated, avoid irritants like smoke, and use cough suppressants or expectorants if appropriate. Seek care if symptoms persist."
+    },
+    "nasal_congestion": {
+        "clarifying_questions": [
+            "How long have you had nasal congestion?",
+            "Do you also have facial pain or pressure?",
+            "Is there nasal discharge? What color is it?",
+            "Do you have allergies or sinus problems?",
+            "Have you recently had a cold or flu?"
+        ],
+        "conditions_to_flag": [
+            "Nasal congestion lasting more than 10 days",
+            "Congestion with facial swelling or severe pain",
+            "Bloody or foul-smelling nasal discharge",
+            "Recurrent sinus infections"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if there is facial swelling, high fever, or confusion.",
+            "doctor_visit": "See a doctor if symptoms persist beyond 10 days or worsen after initial improvement.",
+            "monitor_at_home": "Mild congestion can be treated with saline rinses, decongestants, and steam inhalation."
+        },
+        "safe_advice": "Use saline sprays or rinses, stay hydrated, apply warm compresses, and consider antihistamines or decongestants as needed."
+    },
+    "runny_nose": {
+        "clarifying_questions": [
+            "Is the nasal discharge clear, yellow, or green?",
+            "Do you have other symptoms like sneezing or itchy eyes?",
+            "Is the runny nose constant or intermittent?",
+            "Do you have a history of allergies or recent illness?",
+            "Is it affecting one nostril or both?"
+        ],
+        "conditions_to_flag": [
+            "Runny nose with thick, green discharge for more than 10 days",
+            "Associated high fever or facial pain",
+            "Clear watery discharge after head trauma"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if clear nasal fluid follows a head injury.",
+            "doctor_visit": "Consult a doctor if discharge persists over 10 days, changes color, or is accompanied by pain or fever.",
+            "monitor_at_home": "Common colds and allergies can be managed at home with fluids and OTC medications."
+        },
+        "safe_advice": "Blow your nose gently, use saline nasal spray, stay hydrated, and use antihistamines or cold remedies if appropriate."
+    },
+    "sneezing": {
+        "clarifying_questions": [
+            "When did the sneezing start?",
+            "Is it constant or only in certain environments?",
+            "Do you have itchy eyes or a runny nose?",
+            "Do you have known allergies?",
+            "Have you been exposed to dust, pollen, or animals?"
+        ],
+        "conditions_to_flag": [
+            "Persistent sneezing interfering with sleep or daily life",
+            "Sneezing with facial swelling or rash",
+            "Sneezing with high fever or sinus pain"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if sneezing is part of a severe allergic reaction (anaphylaxis).",
+            "doctor_visit": "See a doctor if sneezing is persistent and unresponsive to OTC treatment.",
+            "monitor_at_home": "Sneezing from mild allergies or cold can be managed with antihistamines and avoiding triggers."
+        },
+        "safe_advice": "Identify and avoid allergens, use antihistamines, and keep windows closed during high pollen seasons."
+    },
+    "postnasal_drip": {
+        "clarifying_questions": [
+            "Do you feel mucus dripping down the back of your throat?",
+            "Do you have a chronic cough or throat clearing?",
+            "Is your throat sore or irritated?",
+            "Are symptoms worse in the morning?",
+            "Do you have allergies, sinus problems, or acid reflux?"
+        ],
+        "conditions_to_flag": [
+            "Postnasal drip lasting more than 2 weeks",
+            "Associated chronic cough or bad breath",
+            "Symptoms with fever or thick nasal discharge"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if accompanied by severe throat swelling or breathing difficulty.",
+            "doctor_visit": "Consult a doctor if symptoms are persistent or suggest sinus infection or reflux.",
+            "monitor_at_home": "Mild cases can be managed with saline rinses and avoiding allergens."
+        },
+        "safe_advice": "Stay hydrated, use saline nasal sprays, avoid dairy or allergens, and consider antihistamines or reflux treatment if advised."
+    },
+    "fever": {
+        "clarifying_questions": [
+            "How long have you had the fever?",
+            "What is the highest temperature you've recorded?",
+            "Do you have other symptoms like chills, cough, sore throat, or rash?",
+            "Have you recently traveled or been exposed to someone who is ill?",
+            "Are you taking any medications that could cause fever?",
+            "Do you have any existing medical conditions such as immune suppression?"
+        ],
+        "conditions_to_flag": [
+            "Fever above 103\u00b0F (39.4\u00b0C)",
+            "Fever lasting more than 3 days",
+            "Fever with severe headache or stiff neck",
+            "Fever with rash",
+            "Fever with breathing difficulty or chest pain",
+            "Fever with confusion or altered mental status",
+            "Fever in an infant younger than 3 months"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if the fever is above 103\u00b0F, or is accompanied by confusion, difficulty breathing, stiff neck, persistent vomiting, or chest pain.",
+            "doctor_visit": "Consult a doctor if the fever lasts more than 3 days, or is accompanied by a rash, sore throat, headache, or signs of dehydration.",
+            "monitor_at_home": "Monitor at home if the fever is mild (below 102\u00b0F), and not associated with severe symptoms. Rest, hydrate, and use fever-reducing medication if needed."
+        },
+        "safe_advice": "Take acetaminophen or ibuprofen to reduce the fever. Stay hydrated, get plenty of rest, and dress in lightweight clothing. Avoid over-bundling. Seek medical attention if symptoms worsen or persist."
+    },
+    "chills": {
+        "clarifying_questions": [
+            "Are the chills accompanied by a fever?",
+            "Do you feel cold even when in a warm environment?",
+            "Are you sweating or shivering?",
+            "Have you recently had any infections or vaccinations?",
+            "Do you have any known immune conditions or are on immunosuppressive drugs?"
+        ],
+        "conditions_to_flag": [
+            "Chills with high fever",
+            "Chills with persistent shaking or rigors",
+            "Chills with confusion or chest pain",
+            "Chills in elderly or immunocompromised individuals"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if chills are accompanied by a high fever, mental confusion, or chest pain.",
+            "doctor_visit": "See a doctor if chills persist, are recurrent, or occur with fever or unexplained symptoms.",
+            "monitor_at_home": "If chills are mild and related to a minor infection, manage at home with rest, hydration, and fever control."
+        },
+        "safe_advice": "Keep warm, drink fluids, and monitor temperature. Treat fever if present. Seek medical help if symptoms escalate."
+    },
+    "fatigue": {
+        "clarifying_questions": [
+            "How long have you been feeling fatigued?",
+            "Is it constant or does it improve with rest?",
+            "Do you have trouble sleeping or feel stressed?",
+            "Are you experiencing other symptoms like weight loss or fever?",
+            "Do you have any chronic conditions or are you taking new medications?"
+        ],
+        "conditions_to_flag": [
+            "Fatigue lasting more than 2 weeks",
+            "Fatigue with unexplained weight loss",
+            "Fatigue with depression, confusion, or dizziness",
+            "Fatigue interfering with daily life"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if fatigue is sudden and severe or accompanied by confusion, chest pain, or shortness of breath.",
+            "doctor_visit": "See a doctor if fatigue is persistent, worsening, or associated with other concerning symptoms.",
+            "monitor_at_home": "Mild fatigue due to lifestyle factors can be improved with better sleep, nutrition, and stress management."
+        },
+        "safe_advice": "Ensure adequate sleep, nutrition, and hydration. Avoid caffeine late in the day. Track symptoms and seek care if they continue."
+    },
+    "facial_pain_or_pressure": {
+        "clarifying_questions": [
+            "Where exactly do you feel the pain or pressure?",
+            "Do you have nasal congestion or postnasal drip?",
+            "Does the pain worsen when bending forward?",
+            "Do you have a fever or recent history of a cold?",
+            "Is one side of your face more affected than the other?"
+        ],
+        "conditions_to_flag": [
+            "Severe facial pain with high fever",
+            "Pain that worsens or lasts more than 10 days",
+            "Swelling or redness around the eyes",
+            "Recurrent sinus infections"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if facial pain is severe and associated with eye swelling, high fever, or confusion.",
+            "doctor_visit": "Consult a doctor if symptoms last more than 10 days or worsen after improvement.",
+            "monitor_at_home": "Mild pain can be managed with warm compresses, nasal rinses, and OTC pain relievers."
+        },
+        "safe_advice": "Apply warm compresses, use decongestants or nasal sprays, and avoid allergens. Stay hydrated and rest."
+    },
+    "ear_fullness_or_pain": {
+        "clarifying_questions": [
+            "Is the pain in one or both ears?",
+            "Do you have any hearing loss or discharge?",
+            "Have you had a recent cold or upper respiratory infection?",
+            "Is the pain sharp or dull?",
+            "Are you experiencing dizziness or ringing in the ears?"
+        ],
+        "conditions_to_flag": [
+            "Severe ear pain with fever or discharge",
+            "Sudden hearing loss",
+            "Ear pain lasting more than 3 days",
+            "Pain following air travel or swimming"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if ear pain is sudden and severe, or accompanied by hearing loss or high fever.",
+            "doctor_visit": "Consult a doctor if pain persists, is recurrent, or has discharge.",
+            "monitor_at_home": "Mild ear pressure from congestion can be managed with decongestants and warm compresses."
+        },
+        "safe_advice": "Use warm compresses, take OTC pain relievers, and treat nasal congestion. Avoid inserting anything into the ear."
+    },
+    "blurred_vision": {
+        "clarifying_questions": [
+            "When did the blurred vision start?",
+            "Is it in one eye or both?",
+            "Is it constant or intermittent?",
+            "Do you have headaches, eye pain, or floaters?",
+            "Have you experienced trauma or been diagnosed with diabetes or high blood pressure?"
+        ],
+        "conditions_to_flag": [
+            "Sudden blurred vision in one or both eyes",
+            "Blurred vision with severe headache or slurred speech",
+            "Blurred vision after trauma",
+            "Gradual vision loss with diabetes or hypertension"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek immediate care for sudden vision loss, eye pain, or neurological symptoms like confusion or slurred speech.",
+            "doctor_visit": "Consult an eye specialist if vision changes persist, worsen, or are associated with systemic conditions.",
+            "monitor_at_home": "Temporary mild blurring from fatigue or dry eyes may resolve with rest or eye drops."
+        },
+        "safe_advice": "Avoid screen overuse, stay hydrated, and monitor changes. Use lubricating drops if dry. Seek medical advice if symptoms persist."
+    },
+    "dizziness": {
+        "clarifying_questions": [
+            "Is the dizziness a spinning sensation (vertigo) or lightheadedness?",
+            "Does it occur when standing up, moving, or lying down?",
+            "Do you feel nauseous or off-balance?",
+            "Do you have hearing loss, ear pain, or recent infections?",
+            "Do you have heart conditions or take blood pressure medication?"
+        ],
+        "conditions_to_flag": [
+            "Sudden or severe dizziness with chest pain, weakness, or confusion",
+            "Dizziness with slurred speech or facial drooping",
+            "Recurrent dizziness interfering with daily life"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if dizziness is sudden and severe or occurs with neurological or cardiac symptoms.",
+            "doctor_visit": "See a doctor for frequent or worsening dizziness or if affecting balance or daily function.",
+            "monitor_at_home": "Occasional lightheadedness may be monitored with hydration and rest."
+        },
+        "safe_advice": "Stay hydrated, rise slowly from seated positions, and avoid sudden head movements. Follow up if symptoms persist."
+    },
+    "nausea_vomiting_with_headache": {
+        "clarifying_questions": [
+            "Did nausea and vomiting start with the headache?",
+            "Is this a recurring pattern like with migraines?",
+            "Are there other symptoms like fever or neck stiffness?",
+            "Have you recently had a head injury?",
+            "Do you have visual changes or confusion?"
+        ],
+        "conditions_to_flag": [
+            "New onset of headache with vomiting",
+            "Headache with fever, stiff neck, or altered consciousness",
+            "Persistent vomiting not relieved by medication"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if headache and vomiting are sudden, severe, or include other neurological symptoms.",
+            "doctor_visit": "Consult a doctor if persistent or if linked to migraines and needs better management.",
+            "monitor_at_home": "Mild cases related to known migraine patterns may be managed with rest and medication."
+        },
+        "safe_advice": "Use migraine-specific treatments, stay in a quiet, dark room, and stay hydrated. Avoid known triggers."
+    },
+    "neck_stiffness": {
+        "clarifying_questions": [
+            "When did the stiffness start?",
+            "Is it painful to move your neck side to side?",
+            "Do you have fever, headache, or sensitivity to light?",
+            "Any recent infections or injuries?",
+            "Can you touch your chin to your chest?"
+        ],
+        "conditions_to_flag": [
+            "Neck stiffness with fever and headache",
+            "Stiff neck after trauma",
+            "Neck rigidity with confusion or vomiting"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if neck stiffness occurs with fever, headache, or signs of meningitis.",
+            "doctor_visit": "See a doctor if symptoms persist, follow injury, or limit daily activities.",
+            "monitor_at_home": "Mild stiffness from poor posture or strain can be treated with rest and gentle stretching."
+        },
+        "safe_advice": "Apply heat, use gentle range-of-motion exercises, and avoid sudden neck movements. Seek care if symptoms worsen."
+    },
+    "confusion_or_altered_mental_status": {
+        "clarifying_questions": [
+            "When did the confusion start?",
+            "Is the person responding normally to questions and surroundings?",
+            "Have there been any recent medication changes or illnesses?",
+            "Is there a history of dementia, stroke, or psychiatric illness?",
+            "Are there signs of fever, trauma, or abnormal behavior?"
+        ],
+        "conditions_to_flag": [
+            "Sudden onset confusion or disorientation",
+            "Confusion with fever, seizures, or trauma",
+            "Confusion in elderly or chronically ill patients"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care immediately for any sudden confusion or if accompanied by fever, stroke symptoms, or trauma.",
+            "doctor_visit": "See a doctor for gradual changes in mental status or memory issues.",
+            "monitor_at_home": "Mild disorientation due to dehydration or sleep deprivation may improve with rest and fluids."
+        },
+        "safe_advice": "Ensure safety, hydration, and minimize stimulation. Do not leave the person alone if severely confused. Get medical help promptly."
+    },
+    "headache_after_bending_over": {
+        "clarifying_questions": [
+            "Does the headache start immediately after bending forward?",
+            "Is the pain sharp, dull, or throbbing?",
+            "Do you have any sinus congestion or pressure?",
+            "Is the headache worse in the morning?",
+            "Do you have any other symptoms like fever or nasal discharge?"
+        ],
+        "conditions_to_flag": [
+            "Headache with facial pain or sinus pressure",
+            "Pain worsens with bending or lying down",
+            "Headache with fever or nasal drainage"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if headache is severe or associated with visual changes or confusion.",
+            "doctor_visit": "Consult a doctor if symptoms persist or worsen, particularly with sinus infection symptoms.",
+            "monitor_at_home": "Mild sinus-related headaches can be monitored and treated with hydration and decongestants."
+        },
+        "safe_advice": "Use warm compresses, decongestants, and avoid sudden movements. Stay hydrated and rest."
+    },
+    "headache_after_physical_exertion": {
+        "clarifying_questions": [
+            "Do headaches start during or after exercise?",
+            "Is the pain throbbing or pressure-like?",
+            "How long do the headaches last?",
+            "Do you feel dizzy, nauseous, or faint?",
+            "Do you have a history of migraines or cardiovascular conditions?"
+        ],
+        "conditions_to_flag": [
+            "Sudden severe headache with exertion",
+            "Headache with neurological symptoms",
+            "New or worsening headaches during exercise"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care for sudden or intense headache during exertion or with neurological symptoms.",
+            "doctor_visit": "See a doctor if exertion consistently triggers headaches or symptoms worsen.",
+            "monitor_at_home": "Mild headaches after exertion can be managed with rest and hydration."
+        },
+        "safe_advice": "Warm up before workouts, stay hydrated, and avoid overexertion. Seek medical advice if symptoms persist."
+    },
+    "valsalva_maneuver_induced_headache": {
+        "clarifying_questions": [
+            "Does the headache occur when coughing, sneezing, or straining?",
+            "Is the pain sudden or builds up gradually?",
+            "Have you had any recent infections or sinus issues?",
+            "Do you have any known vascular or neurological disorders?",
+            "Have you previously experienced similar headaches?"
+        ],
+        "conditions_to_flag": [
+            "Sudden headache triggered by coughing or sneezing",
+            "Headache with visual disturbance or fainting",
+            "Persistent or worsening headaches with straining"
+        ],
+        "triage_recommendations": {
+            "emergency": "Seek emergency care if the headache is sudden and severe or associated with neurological changes.",
+            "doctor_visit": "Consult a doctor for evaluation and imaging to rule out secondary causes.",
+            "monitor_at_home": "If already diagnosed with primary cough headache, follow prescribed treatment."
+        },
+        "safe_advice": "Avoid straining activities, treat underlying coughs or constipation, and follow up with your doctor for management."
+    }
+}

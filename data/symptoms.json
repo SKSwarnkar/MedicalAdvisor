@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Fever",
+        "description": "Elevated body temperature, may indicate infection"
+    },
+    {
+        "id": 2,
+        "name": "Sore throat",
+        "description": "Pain or irritation in the throat"
+    },
+    {
+        "id": 3,
+        "name": "Headache",
+        "description": "Pain in the head or upper neck"
+    },
+    {
+        "id": 4,
+        "name": "Chest pain",
+        "description": "Discomfort or pain in the chest area"
+    },
+    {
+        "id": 5,
+        "name": "Rash",
+        "description": "Skin irritation or discoloration"
+    },
+    {
+        "id": 6,
+        "name": "Cough",
+        "description": "Reflex to clear the throat or airway"
+    },
+    {
+        "id": 7,
+        "name": "Fatigue",
+        "description": "Feeling of tiredness or lack of energy"
+    }
+]
